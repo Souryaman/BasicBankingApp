@@ -23,10 +23,10 @@ class MyDBHelper(context: Context): SQLiteOpenHelper(context,"CUSTOMERS_DATA",nu
     override fun onCreate(db: SQLiteDatabase?) {
         db?.execSQL("CREATE TABLE CUSTOMERS(cid INTEGER PRIMARY KEY AUTOINCREMENT, FNAME TEXT, LNAME TEXT,EMAIL TEXT,BALANCE INTEGER)")
 
-        db?.execSQL("INSERT INTO CUSTOMERS(FNAME,LNAME,EMAIL,BALANCE) VALUES('Souryaman','Singh','souryamanhp99@gmail.com',9000)")
-        db?.execSQL("INSERT INTO CUSTOMERS(FNAME,LNAME,EMAIL,BALANCE) VALUES('Kartikey','Vaish','kartikeyvaish99@gmail.com',10000)")
-        db?.execSQL("INSERT INTO CUSTOMERS(FNAME,LNAME,EMAIL,BALANCE) VALUES('Shorya','Bansal','shoryabhuvi7651@gmail.com',11000)")
-        db?.execSQL("INSERT INTO CUSTOMERS(FNAME,LNAME,EMAIL,BALANCE) VALUES('Kislay','Singh','singhkislay1101@gmail.com',8000)")
+        db?.execSQL("INSERT INTO CUSTOMERS(FNAME,LNAME,EMAIL,BALANCE) VALUES('Pranita','Singh','singhpranita@gmail.com',9000)")
+        db?.execSQL("INSERT INTO CUSTOMERS(FNAME,LNAME,EMAIL,BALANCE) VALUES('Kartikey','Vaish','kartikeyvaish@gmail.com',10000)")
+        db?.execSQL("INSERT INTO CUSTOMERS(FNAME,LNAME,EMAIL,BALANCE) VALUES('Shorya','Bansal','shoryabhuvi71@gmail.com',11000)")
+        db?.execSQL("INSERT INTO CUSTOMERS(FNAME,LNAME,EMAIL,BALANCE) VALUES('Kislay','Singh','singhkislay01@gmail.com',8000)")
         db?.execSQL("INSERT INTO CUSTOMERS(FNAME,LNAME,EMAIL,BALANCE) VALUES('Utsav','Verma','utsavverma21@gmail.com',6000)")
         db?.execSQL("INSERT INTO CUSTOMERS(FNAME,LNAME,EMAIL,BALANCE) VALUES('Vivek','Sherkhane','sherkanevivek@gmail.com',5000)")
         db?.execSQL("INSERT INTO CUSTOMERS(FNAME,LNAME,EMAIL,BALANCE) VALUES('Gaurav','Shriwastav','gaurav9812@gmail.com',4000)")
